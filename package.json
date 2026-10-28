@@ -1,0 +1,17 @@
+{
+  "name": "bomber-tanks-online",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Bomber Tanks HTML game with Socket.IO real-time player presence and movement",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
